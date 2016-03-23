@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <parameter name="browser" value="chrome"/>
+    <test name="signup" >
+
+        <parameter name="username" value="Benny"/>
+        <parameter name="password" value="11111111"/>
+        <!--<parameter name="xbox_id" value="mr gaming4glory"/>-->
+        <!-- <parameter name="xbox_id" value="thatmandubs"/> -->
+       <!--<parameter name="xbox_id" value="littletj17"/>-->
+         <!--<parameter name="xbox_id" value="alphaany1"/>-->
+        <parameter name="xbox_id" value="buddhawulf24"/>
+      <!--  <parameter name="psn_id" value="blonko100"/> -->
+        <parameter name="psn_id" value="Ein_Harob"/>
+        <parameter name="email" value="legendberserker@gmail.com"/>
+        <parameter name="birthday" value="01/01/1978"/>
+
+        <classes>
+            <class name="qa.IndexPageTest" />
+        </classes>
+    </test>
+</suite>
